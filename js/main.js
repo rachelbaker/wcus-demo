@@ -43,11 +43,11 @@
 	};
 
 	/**
-	 * Homepage and pagination route callback.
+	 * Homepage and Post list pagination routes callback.
 	 *
 	 * @param  {string} page - Pagination location.
 	 */
-	function listPostswithPagination( page ) {
+	var listPostswithPagination = function( page ) {
 		page = typeof page !== 'undefined' ? page : '1';
 
 		$.get( apiUrl + '/wp/v2/posts?page=' + page, function( data, textStatus, jqxhr ) {
@@ -83,7 +83,7 @@
 				$( 'html, body' ).animate( { scrollTop: 0 }, 'slow' );
 			});
 		});
-	}
+	};
 
 	/**
 	 * Define our routing paths and their accompanying callbacks.
