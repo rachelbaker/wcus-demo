@@ -1,7 +1,0 @@
-├── functions.php
-├── img
-│   └── logo.png
-├── index.php
-├── js
-│   └── main.js
-├── style.css
