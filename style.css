@@ -1,0 +1,85 @@
+/*
+Theme Name: WCUS Demo
+Theme URI:
+Author: Rachel Baker
+Author URI: http://github.com/wp-api/wp-api
+Description:
+Version: 0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+html {
+	background-color: #b6bdc5;
+	font-size: 18px;
+	font-family: sans-serif;
+}
+
+a,
+a:visited {
+	color: #22303f;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #3c5066;
+	text-decoration: underline;
+}
+
+p {
+	font-size: 1.1em;
+	margin-top: 0;
+	margin-bottom: 24px;
+	line-height: 1.5;
+}
+
+.aligncenter {
+	margin: 20px auto;
+	display: block;
+}
+
+header {
+	background-color: #22303f;
+	width: 100%;
+}
+
+#logo {
+	padding: 12px 48px;
+}
+
+#wrapper {
+	background-color: #fff;
+	width: 100%;
+	clear: both;
+	padding: 40px 0;
+}
+
+.container {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+footer {
+	min-height: 60px;
+	background-color: #e24d1f;
+	width: 100%;
+}
+
+.credit {
+	padding: 40px 0 40px 60px;
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: 700;
+	margin-top: 0;
+	line-height: 1.5;
+}
+
+#paginiation {
+	width: 100%;
+	clear: both;
+}
+.page-previous {
+	float: left;
+}
+.page-next {
+	float: right;
+}
